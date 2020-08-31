@@ -53,7 +53,7 @@ public class Tabuleiro {
 	}
 	
 	/*
-	 * Verifica se a casa está disponível
+	 * Verifica se existe uma casa disponível
 	 */
 	public boolean isCasaDisponivel() {
 		for(int i = 0; i < this.tamanhoTabuleiro; i++) {
